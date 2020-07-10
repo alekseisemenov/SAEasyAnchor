@@ -1,0 +1,16 @@
+PODS:
+  - SAEasyAnchor (0.1.0)
+
+DEPENDENCIES:
+  - SAEasyAnchor (from `../`)
+
+EXTERNAL SOURCES:
+  SAEasyAnchor:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SAEasyAnchor: 4c2accadae1a8768691fd05174f9e50387f7f5cd
+
+PODFILE CHECKSUM: 890d6a672282210f30ae7f5d25489c0ed51359ef
+
+COCOAPODS: 1.9.3
