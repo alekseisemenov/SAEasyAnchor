@@ -1,5 +1,5 @@
 # SAEasyAnchor
-![image](https://user-images.githubusercontent.com/61948950/87154941-c0a98300-c2c2-11ea-8221-dee26f1349f4.png)
+![image](https://user-images.githubusercontent.com/61948950/87155126-12eaa400-c2c3-11ea-89cd-cd956ae119d7.png)
 
 [![CI Status](https://img.shields.io/travis/alekseisemenov/SAEasyAnchor.svg?style=flat)](https://travis-ci.org/alekseisemenov/SAEasyAnchor)
 [![Version](https://img.shields.io/cocoapods/v/SAEasyAnchor.svg?style=flat)](https://cocoapods.org/pods/SAEasyAnchor)
