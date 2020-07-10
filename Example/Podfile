@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SAEasyAnchor_Example' do
+  pod 'SAEasyAnchor', :path => '../'
+
+  target 'SAEasyAnchor_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
