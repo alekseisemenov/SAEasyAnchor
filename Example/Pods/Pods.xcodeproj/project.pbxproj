@@ -11,7 +11,7 @@
 		3F4907502FFF4C431192CA76BF3E0487 /* Pods-SAEasyAnchor_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB5A7BF5A9C6C866443959241C06E6D8 /* Pods-SAEasyAnchor_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		46DA4F316C0D4775049C25C38F53FE64 /* Pods-SAEasyAnchor_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B456A00A279FB389D08AED6715D3905D /* Pods-SAEasyAnchor_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		487CDAF6A8908BA858E88EC3668935C7 /* Pods-SAEasyAnchor_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CC9DA31BC2F831202CC79CB5D0CFDF /* Pods-SAEasyAnchor_Tests-dummy.m */; };
-		4A173E725BFAE800DAD71B8B43C8D590 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AA8BE5FFB2141E602E98E44EF0283E /* ReplaceMe.swift */; };
+		56B7E9D224B891E200265BE5 /* Anchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B7E9D124B891E200265BE5 /* Anchor.swift */; };
 		766487990AFECFC4C8B666C0E6572939 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		830715A4E0C3EAD381DA48A72ADA2882 /* Pods-SAEasyAnchor_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C062B13987B0610899DEC46F62252BAB /* Pods-SAEasyAnchor_Example-dummy.m */; };
 		918778EF275856BD1BFFA9831ACA733F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -50,6 +50,7 @@
 		4612B3CE1AD46FED8C0CAD79EA13231F /* SAEasyAnchor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SAEasyAnchor-dummy.m"; sourceTree = "<group>"; };
 		521114C1A0012703E79AE7C90998C0CD /* SAEasyAnchor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAEasyAnchor-prefix.pch"; sourceTree = "<group>"; };
 		5250BDCA7D7CDF58B19B27761F2D213C /* Pods_SAEasyAnchor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SAEasyAnchor_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56B7E9D124B891E200265BE5 /* Anchor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anchor.swift; sourceTree = "<group>"; };
 		72EF8F35E53E61199D8AB41AC7CCED55 /* Pods-SAEasyAnchor_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SAEasyAnchor_Tests-Info.plist"; sourceTree = "<group>"; };
 		82D429907B834124FD96E0501F951465 /* Pods-SAEasyAnchor_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SAEasyAnchor_Example.modulemap"; sourceTree = "<group>"; };
 		95F503A28C673DE15286639F763DAFA9 /* Pods-SAEasyAnchor_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SAEasyAnchor_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -66,7 +67,6 @@
 		DA93029143627690FBC206B9773F39B5 /* Pods-SAEasyAnchor_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SAEasyAnchor_Example-frameworks.sh"; sourceTree = "<group>"; };
 		DB5A7BF5A9C6C866443959241C06E6D8 /* Pods-SAEasyAnchor_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SAEasyAnchor_Tests-umbrella.h"; sourceTree = "<group>"; };
 		E41A409503C3359EF3E21870D27F2CFF /* Pods_SAEasyAnchor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SAEasyAnchor_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E6AA8BE5FFB2141E602E98E44EF0283E /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SAEasyAnchor/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		F0EC58A7AAE4ED125FAEE9F89EC074CC /* SAEasyAnchor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAEasyAnchor-umbrella.h"; sourceTree = "<group>"; };
 		FA911E1B69F9375F3115D861F535EA55 /* SAEasyAnchor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SAEasyAnchor.debug.xcconfig; sourceTree = "<group>"; };
 		FE983A47254E8CDBD5EA3668995AAAFE /* Pods-SAEasyAnchor_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SAEasyAnchor_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -118,12 +118,20 @@
 		5026B0F83F07A62D93E1C0C1C3F05C68 /* SAEasyAnchor */ = {
 			isa = PBXGroup;
 			children = (
-				E6AA8BE5FFB2141E602E98E44EF0283E /* ReplaceMe.swift */,
+				56B7E9CC24B890C100265BE5 /* Source */,
 				9895221F2FF4F9BB404CE50ECF3834FA /* Pod */,
 				3E735B6E29A39AA4B3540ABACBB10746 /* Support Files */,
 			);
 			name = SAEasyAnchor;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		56B7E9CC24B890C100265BE5 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				56B7E9D124B891E200265BE5 /* Anchor.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 		5C048CB36AA6F17D5326FE608BD1ABAE /* Products */ = {
@@ -321,6 +329,9 @@
 					1370B99DF14C4F2467B5A5AA1DC7575A = {
 						LastSwiftMigration = 1150;
 					};
+					4EFFBE9D8F8CECE6C3B171FC970AEE82 = {
+						LastSwiftMigration = 1150;
+					};
 				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
@@ -372,7 +383,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A173E725BFAE800DAD71B8B43C8D590 /* ReplaceMe.swift in Sources */,
+				56B7E9D224B891E200265BE5 /* Anchor.swift in Sources */,
 				3083D78AF44F08CA5140A012580FDD79 /* SAEasyAnchor-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +427,7 @@
 			baseConfigurationReference = FE983A47254E8CDBD5EA3668995AAAFE /* Pods-SAEasyAnchor_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -427,7 +439,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SAEasyAnchor_Example/Pods-SAEasyAnchor_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SAEasyAnchor_Example/Pods-SAEasyAnchor_Example.modulemap";
@@ -438,6 +450,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -461,7 +475,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SAEasyAnchor_Tests/Pods-SAEasyAnchor_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SAEasyAnchor_Tests/Pods-SAEasyAnchor_Tests.modulemap";
@@ -482,6 +496,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FA911E1B69F9375F3115D861F535EA55 /* SAEasyAnchor.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -494,14 +509,16 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SAEasyAnchor/SAEasyAnchor-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SAEasyAnchor/SAEasyAnchor-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SAEasyAnchor/SAEasyAnchor.modulemap";
 				PRODUCT_MODULE_NAME = SAEasyAnchor;
 				PRODUCT_NAME = SAEasyAnchor;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -525,7 +542,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SAEasyAnchor_Tests/Pods-SAEasyAnchor_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SAEasyAnchor_Tests/Pods-SAEasyAnchor_Tests.modulemap";
@@ -547,6 +564,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BEABF9E099DAA36F9FE3C4CE328F4F8F /* SAEasyAnchor.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -559,13 +577,14 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SAEasyAnchor/SAEasyAnchor-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SAEasyAnchor/SAEasyAnchor-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SAEasyAnchor/SAEasyAnchor.modulemap";
 				PRODUCT_MODULE_NAME = SAEasyAnchor;
 				PRODUCT_NAME = SAEasyAnchor;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -623,7 +642,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -639,6 +658,7 @@
 			baseConfigurationReference = A00AB67F3F434AD4D5F609E6531C6EBF /* Pods-SAEasyAnchor_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -650,7 +670,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SAEasyAnchor_Example/Pods-SAEasyAnchor_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SAEasyAnchor_Example/Pods-SAEasyAnchor_Example.modulemap";
@@ -661,6 +681,9 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -718,7 +741,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
